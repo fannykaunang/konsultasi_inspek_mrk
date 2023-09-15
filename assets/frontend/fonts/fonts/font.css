@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Ubuntu-Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(../fonts/_aijTyevf54tkVDLy-dlnD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url(../fonts/_xyN3apAT_yRRDeqB3sPRg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu-Bold';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(../fonts/0ihfXUL2emPh0ROJezvraD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Indie-Flower';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Indie Flower'), local('Indie-Flower'), url(../fonts/10JVD_humAd5zP2yrFqw6nhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto-Thin';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Roboto-Thin'), local('Roboto-Thin'), url(../fonts/Roboto-Thin-webfont.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto-Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto-Light'), local('Roboto-Light'), url(../fonts/Roboto-Light-webfont.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto-Bold';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Roboto-Bold'), local('Roboto-Bold'), url(../fonts/Roboto-Bold-webfont.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto-Bold-Condensed';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Roboto-Bold-Condensed'), local('Roboto-Bold-Condensed'), url(../fonts/Roboto-BoldCondensed-webfont.woff) format('woff');
+}
+/*Oswald*/
+@font-face {
+  font-family: 'Oswald-Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url(../fonts/HqHm7BVC_nzzTui2lzQTDT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(../fonts/-g5pDUSRgvxvOl5u-a_WHw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oswald Bold'), local('Oswald-Bold'), url(../fonts/bH7276GfdCjMjApa_dkG6T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+/*museo*/
+@font-face {
+  font-family: 'Museo300';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Museo 300'), local('Museo-300'), url(../fonts/museo300.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Museo700';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Museo 700'), local('Museo-700'), url(../fonts/museo700.otf) format('opentype');
+}

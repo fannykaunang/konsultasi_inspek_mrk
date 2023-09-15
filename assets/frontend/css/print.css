@@ -1,0 +1,15 @@
+@media print{
+	.NoPrint{
+		display:none;
+	}
+	.navbar,.navbar-default,.navbar-fixed-top,#SubNav,#Slogan,#Search{
+		display:none;
+	}
+	.entry-content, .sectiontitlepost{
+		width:18cm;
+		margin:5px;
+	}
+	#comments, #respond{
+		display:none;
+	}
+}

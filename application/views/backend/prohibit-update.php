@@ -1,0 +1,1 @@
+<div class="alert alert-danger">Anda tidak diperkenankan mengupdate Pelaporan ini. </div>

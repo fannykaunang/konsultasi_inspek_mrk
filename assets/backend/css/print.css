@@ -1,0 +1,156 @@
+/*
+	print.css
+*/
+/*misc*/
+
+/*misc*/
+body{
+	padding:0;
+	margin:0;
+	font-size:13px;
+	font-family: 'Ubuntu-Light';
+}
+h1{
+	font-family: 'Ubuntu-Bold';
+}
+h2{
+	font-family: 'Ubuntu-Bold';
+}
+h3{
+	font-family: 'Ubuntu-Bold';
+}
+
+.navbar.navbar-default.navbar-fixed-top{
+	display:none;
+}
+.container.givetop{
+	margin-top:0px;
+}
+.container.givetop > legend{
+	/*display:none;*/
+	border-bottom:none;
+}
+.container.givetop > a.btn.btn-primary.pull-right{
+	display:none;
+}
+.container.givetop > div.row > div.col-md-6 > div.company > center > img{
+	width:200px;
+	height:75px;
+	text-align:center;
+}
+.tb-company{
+	width:90%;
+}
+.form-control{
+	border:none;
+	
+}
+.control-label{
+	margin:0;
+	padding:0;
+}
+.title > h4 > input.datepicker{
+	border:0px;
+}
+
+.spacer2{
+	padding:10px;
+}
+.detail-head{
+	margin-left:15px;
+}
+
+.col-md-5.pull-right > div.title{
+	margin-right:20px;
+}
+.form-control{
+	margin:0px;
+}
+.form-control.right{
+	border:none;	
+}
+.checkout.pull-right{
+	margin-right:-12px;
+}
+button.btn.btn-primary.btn-lg{
+	display:none;
+}
+button.btn.btn-success.btn-lg{
+	display:none;
+}
+
+a.lihat{
+	display:none;
+}
+#boxmenu{
+display:none;
+}
+.no-print{
+	display:none;
+}
+
+
+
+/*tb*/
+table.table.table-striped {
+	width:98%;
+}
+table.table.table-striped > tbody > tr > td{
+	border:1px solid #000;
+}
+table.table.table-striped > tbody > tr > td.right > label.nomor{
+	margin-right:10px;
+}
+table.table.table-striped > tbody > tr > td > div.perhatian > address{
+	margin-left:10px;
+}
+table#tb-subtotal{
+	border:none;	
+}
+table.table.table-striped > tbody > tr#tr-subtotal > td{
+	border:None;
+}
+table.table.table-striped > thead > tr > th.center{
+	border:1px solid #000;
+	border-style:double;
+}
+table.table.table-striped > thead > tr > th.right{
+	border:1px solid #000;
+}
+/*table stok-kritis*/
+
+table#tb-stok-kritis.table.table-hover > thead > tr > th{
+	color:#FFFFFF;
+	background:#34495e;
+	vertical-align:middle;
+}
+table#tb-stok-kritis.table.table-hover > tbody > tr > td{	
+	padding:0px 10px 0px 10px;
+	margin:0px 10px 0px 10px;
+	font-size:10px;
+}
+table#tb-stok-kritis.table.table-hover > tbody > tr > td > label{
+	font-weight:normal;
+}
+#tb-stok-kritis_wrapper.dataTables_wrapper > div#tb-stok-kritis_length.dataTables_length{
+	display:none;
+}
+#tb-stok-kritis_wrapper.dataTables_wrapper > div#tb-stok-kritis_filter.dataTables_filter > label{
+	display:none;
+}
+#tb-stok-kritis_wrapper.dataTables_wrapper > div.dataTables_paginate.paging_bootstrap.pagination > ul{
+	display:none;
+}
+#tb-stok-kritis_wrapper.dataTables_wrapper > div#tb-stok-kritis_info.dataTables_info{
+	display:none;
+}
+
+/*table stok-kritis*/
+.nmbrg, .nomor{
+	font-weight:normal;
+}
+/*footer*/
+#footer > div.col-md-12.footer-content{
+	display:none;
+}
+/*footer*/

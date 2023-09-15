@@ -1,0 +1,86 @@
+body{
+	font-family: 'Lato';
+}
+.form-group{
+	margin-bottom:5px;
+}
+.no-line{
+	border:none;
+}
+.no-left-padding{
+	padding-left:0;
+}
+.no-background{
+	background:#FFFFFF;
+}
+.livestamp{
+	color: #62A8EA;
+}
+/*margin*/
+.left5{
+	margin-left: 5px;
+}
+.left10{
+	margin-left: 10px;
+}
+.left15{
+	margin-left: 15px;
+}
+.left20{
+	margin-left: 20px;
+}
+/*margin*/
+.error{
+	color: red;
+	font-size: small;
+	font-style: italic;
+}
+#mycanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index:-1;
+}
+.dataTables_processing {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-size: 13px;
+    left: 50%;
+    margin-left: 0;
+    min-width: 125px;
+    padding: 7px;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    vertical-align: middle;
+}
+.dataTables_processing span {
+    line-height: 15px;
+    vertical-align: middle;
+}
+.dataTables_empty {
+    text-align: center;
+}
+
+td > small{
+	font-style: italic;	
+	color: #26A69A
+}
+#AlertNewsCreate{
+	display: none;
+}
+#AlertTupoksiCreate{
+	display: none;
+}
+#AlertPageCreate{
+	display: none;
+}
+#AlertDirectoryCreate{
+	display: none;
+}

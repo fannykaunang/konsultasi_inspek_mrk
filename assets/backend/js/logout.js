@@ -1,0 +1,3 @@
+var CWXLogout=function(){return{GetLogout:function(root){var heading='Konfirmasi';var question='Apakah anda yakin akan logout?';var cancelButtonTxt='Tidak';var okButtonTxt='Ya';var callback=function(){$.ajax({type:'POST',url:root+'backend/logout',dataType:'json',data:'',beforeSend:function(){myLoader.show();},success:function(respon){if(respon.status=='sukses'){myLoader.hide();$.jGrowl(respon.message);setTimeout(function(){location.reload();},2000);}},timeout:10000,error:function(){myLoader.hide();$.jGrowl('Error');}});}
+confirm(heading,question,cancelButtonTxt,okButtonTxt,callback);}}}
+()
